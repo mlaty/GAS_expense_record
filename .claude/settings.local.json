@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(clasp create:*)",
+      "Bash(clasp push:*)",
+      "Bash(mv:*)",
+      "Bash(clasp deploy:*)",
+      "Bash(clasp open:*)",
+      "Bash(clasp logs:*)"
+    ],
+    "deny": []
+  }
+}

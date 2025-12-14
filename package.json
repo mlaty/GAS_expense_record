@@ -1,0 +1,26 @@
+{
+  "name": "gas-expense-tracker",
+  "version": "1.0.0",
+  "description": "支出記帳工具 - Google Apps Script 版本",
+  "scripts": {
+    "deploy": "clasp push && clasp deploy",
+    "push": "clasp push",
+    "open": "clasp open",
+    "create": "clasp create --title '支出記帳工具' --type webapp",
+    "login": "clasp login",
+    "status": "clasp deployments"
+  },
+  "keywords": [
+    "google-apps-script",
+    "expense-tracker",
+    "gas",
+    "typescript",
+    "web-app"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@types/google-apps-script": "^1.0.83"
+  }
+}
